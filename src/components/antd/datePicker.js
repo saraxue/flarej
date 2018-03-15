@@ -5,6 +5,7 @@ import 'antd/lib/date-picker/style/index';
 registerComponent({
   'ant-DatePicker': DatePicker,
   'ant-MonthPicker': DatePicker.MonthPicker,
+  'ant-WeekPicker': DatePicker.WeekPicker,
   'ant-RangePicker': DatePicker.RangePicker
 });
 
