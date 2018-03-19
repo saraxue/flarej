@@ -1132,7 +1132,7 @@ Object(__WEBPACK_IMPORTED_MODULE_1_nornj__["registerExtension"])({
   childrenEach: function childrenEach(children, options) {
     return __WEBPACK_IMPORTED_MODULE_0_react__["Children"].map(children, function (child) {
       return options.result({
-        data: { '@child': child }
+        data: [{ '@child': child }]
       });
     });
   },
