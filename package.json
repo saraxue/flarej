@@ -9,6 +9,7 @@
     "src/",
     "tools/",
     "vendor/",
+    "CHANGELOG.md",
     "LICENSE",
     "README.md"
   ],
