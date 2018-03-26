@@ -1028,8 +1028,7 @@ module.exports = warning;
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return guid; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return capitalize; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return guid; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__core__ = __webpack_require__(0);
 
 
@@ -1038,13 +1037,8 @@ var guid = function guid() {
   return new Date().getTime() + Math.random().toFixed(6).substr(2);
 };
 
-var capitalize = function capitalize(str) {
-  return str[0].toUpperCase() + str.substr(1);
-};
-
 babelHelpers.extends(__WEBPACK_IMPORTED_MODULE_0__core__["a" /* default */], {
-  guid: guid,
-  capitalize: capitalize
+  guid: guid
 });
 
 /***/ }),
@@ -1541,8 +1535,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "isMobile", function() { return __WEBPACK_IMPORTED_MODULE_9__utils_browsers__["p"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "isWebkit", function() { return __WEBPACK_IMPORTED_MODULE_9__utils_browsers__["s"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__utils_common__ = __webpack_require__(16);
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "guid", function() { return __WEBPACK_IMPORTED_MODULE_10__utils_common__["b"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "capitalize", function() { return __WEBPACK_IMPORTED_MODULE_10__utils_common__["a"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "guid", function() { return __WEBPACK_IMPORTED_MODULE_10__utils_common__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__utils_page__ = __webpack_require__(17);
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "mediaQuery", function() { return __WEBPACK_IMPORTED_MODULE_11__utils_page__["a"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "pageWidth", function() { return __WEBPACK_IMPORTED_MODULE_11__utils_page__["c"]; });
