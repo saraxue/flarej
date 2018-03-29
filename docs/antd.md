@@ -77,7 +77,4 @@ class DemoPage extends React.Component {
 * ant-Tag
 * ant-Timeline
 * ant-TimePicker
-* (与Ant Design官方文档支持的组件保持同步更新)
-
-
-* 各组件的详细使用方式请看[Ant Design 官方文档](https://ant.design/docs/react/introduce-cn)
+* 与Ant Design官方文档支持的组件保持同步更新。各组件的详细使用方式请看[Ant Design 官方文档](https://ant.design/docs/react/introduce-cn)

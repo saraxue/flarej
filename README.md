@@ -1,5 +1,17 @@
 # FlareJ
 
+```
+   ___      __
+ /\  __\   /\_\
+ \_\ \_/_  \/\ \
+/\___  __\  \ \ \
+\/__/\ \_/  _\ \ \
+    \_\ \  /\ \_\ \ (Component, {
+   /\___/  \ \____/   ...responsiveSettings
+   \/__/    \/___/  });
+
+```
+
 `FlareJ`是一个基于`React`和`NornJ`的UI组件库
 
 [![NPM Version][npm-image]][npm-url]
@@ -7,14 +19,21 @@
 
 ## 组件
 
-目前已完成的组件(点击查看示例或文档)：
+目前已有的组件(点击查看示例或文档)：
 
+### 原创组件
+
+* [Responsive(响应式高阶组件)](https://github.com/joe-sky/flarej/blob/master/src/higherOrders/responsive.js)
 * [Pagination(分页)](https://github.com/joe-sky/flarej/blob/master/examples/pagination.html)
 * [Grid(栅格)](https://github.com/joe-sky/flarej/blob/master/examples/grid.html)
 * [Gesture(手势)](https://github.com/joe-sky/flarej/blob/master/examples/gesture.html)
-* [antd文档](https://github.com/joe-sky/flarej/blob/master/docs/antd.md)
-* [antd-mobile文档](https://github.com/joe-sky/flarej/blob/master/docs/antd-mobile.md)
-* [Echarts文档](https://github.com/joe-sky/flarej/blob/master/docs/echarts.md)
+
+### 第三方组件
+
+* [Ant Design](https://github.com/joe-sky/flarej/blob/master/docs/antd.md)
+* [Ant Design Mobile](https://github.com/joe-sky/flarej/blob/master/docs/antd-mobile.md)
+* [Echarts](https://github.com/joe-sky/flarej/blob/master/docs/echarts.md)
+* [Element-React](https://github.com/joe-sky/flarej/blob/master/docs/element-react.md)
 
 ## 依赖的项目
 

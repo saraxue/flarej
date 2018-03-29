@@ -1,6 +1,6 @@
 {
   "name": "flarej",
-  "version": "0.1.23",
+  "version": "0.2.0-alpha.1",
   "description": "An ui component library based on React and NornJ",
   "main": "lib/base.js",
   "files": [
@@ -69,6 +69,8 @@
     "echarts": "^3.3.2",
     "echarts-liquidfill": "^1.0.3",
     "echarts-wordcloud": "^1.0.3",
+    "element-react": "^1.4.10",
+    "element-theme-default": "^1.4.13",
     "enzyme": "^3.1.1",
     "enzyme-adapter-react-15": "^1.0.5",
     "eslint": "^4.10.0",
