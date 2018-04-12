@@ -3453,7 +3453,7 @@ var _paramsE0 = {};
 
 var _ex0 = p1.x['spread'];
 var _dataRefer0 = [
-  p2.d('props'),{ _njOpts: true, _njFnsNo: 0, global: p1, context: p2, outputH: true, useString: false, exProps: _paramsE0, subExProps: p5, result: p1.np }
+  p2.d('props'),{ _njOpts: true, _njFnsNo: 0, global: p1, context: p2, outputH: true, useString: false, exProps: _paramsE0, subExProps: p5, parentName: '{ComposedComponent}', name: 'spread', result: p1.np }
 ];
 p1.tf(_ex0, 'spread', 'ex');
 
@@ -3461,7 +3461,7 @@ _ex0.apply(p2, _dataRefer0);
 
 var _ex1 = p1.x['spread'];
 var _dataRefer1 = [
-  p2.d('state'),{ _njOpts: true, _njFnsNo: 0, global: p1, context: p2, outputH: true, useString: false, exProps: _paramsE0, subExProps: p5, result: p1.np }
+  p2.d('state'),{ _njOpts: true, _njFnsNo: 0, global: p1, context: p2, outputH: true, useString: false, exProps: _paramsE0, subExProps: p5, parentName: '{ComposedComponent}', name: 'spread', result: p1.np }
 ];
 p1.tf(_ex1, 'spread', 'ex');
 
@@ -4072,11 +4072,11 @@ if (_fnH0) {
   _ex0 = p1.x['emptyElem'];
 }
 var _dataRefer0 = [
-{ _njOpts: true, _njFnsNo: 1, global: p1, context: p2, outputH: true, useString: false, exProps: p4, subExProps: p5, result: p1.np }
+{ _njOpts: true, _njFnsNo: 1, global: p1, context: p2, outputH: true, useString: false, exProps: p4, subExProps: p5, parentName: 'else', name: 'emptyElem', result: p1.np }
 ];
 p1.tf(_ex0, 'emptyElem', 'ex');
 
-return _ex0.apply(_fnH0 ? _fnH0.ctx : p2, _dataRefer0);
+return _ex0.apply(_fnH0 ? _fnH0._njCtx : p2, _dataRefer0);
 },
   fn3: function anonymous(p1,p2,p3,p4,p5
 /**/) {
@@ -4093,9 +4093,9 @@ if (_fnH0) {
   _filter0 = p1.f['clickBtn'];
 }
 if (!_filter0) {
-  p1.wn('A filter called "clickBtn" is undefined.');
+  p1.wn('clickBtn', 'f');
 } else {
-  _tmp = _filter0.apply(_fnH0 ? _fnH0.ctx : p2, [_value0, 'first', { _njOpts: true, _njFnsNo: 3, global: p1, context: p2, outputH: true, useString: false, lastValue: _valueL0, level: 2 }]);
+  _tmp = _filter0.apply(_fnH0 ? _fnH0._njCtx : p2, [_value0, 'first', { _njOpts: true, _njFnsNo: 3, global: p1, context: p2, outputH: true, useString: false, lastValue: _valueL0, level: 2 }]);
   _valueL0 = _value0;
   _value0 = _tmp;
 }
@@ -4141,9 +4141,9 @@ if (_fnH0) {
   _filter0 = p1.f['isCurrentPage'];
 }
 if (!_filter0) {
-  p1.wn('A filter called "isCurrentPage" is undefined.');
+  p1.wn('isCurrentPage', 'f');
 } else {
-  _tmp = _filter0.apply(_fnH0 ? _fnH0.ctx : p2, [_value0, { _njOpts: true, _njFnsNo: 7, global: p1, context: p2, outputH: true, useString: false, lastValue: _valueL0 }]);
+  _tmp = _filter0.apply(_fnH0 ? _fnH0._njCtx : p2, [_value0, { _njOpts: true, _njFnsNo: 7, global: p1, context: p2, outputH: true, useString: false, lastValue: _valueL0 }]);
   _valueL0 = _value0;
   _value0 = _tmp;
 }
@@ -4157,9 +4157,9 @@ if (_fnH1) {
   _filter1 = p1.f['clickBtn'];
 }
 if (!_filter1) {
-  p1.wn('A filter called "clickBtn" is undefined.');
+  p1.wn('clickBtn', 'f');
 } else {
-  _tmp = _filter1.apply(_fnH1 ? _fnH1.ctx : p2, [_value1, 'index', { _njOpts: true, _njFnsNo: 7, global: p1, context: p2, outputH: true, useString: false, lastValue: _valueL1 }]);
+  _tmp = _filter1.apply(_fnH1 ? _fnH1._njCtx : p2, [_value1, 'index', { _njOpts: true, _njFnsNo: 7, global: p1, context: p2, outputH: true, useString: false, lastValue: _valueL1 }]);
   _valueL1 = _value1;
   _value1 = _tmp;
 }
@@ -4188,14 +4188,14 @@ var _tmp;
 
 var _filter0 = p1.f['+'];
 if (!_filter0) {
-  p1.wn('A filter called "+" is undefined.');
+  p1.wn('+', 'f');
 } else {
   _tmp = _filter0.apply(p2, [_value0, 2]);
   _valueL0 = _value0;
   _value0 = _tmp;
 }
 var _dataRefer0 = [
-  1,  _value0,{ _njOpts: true, _njFnsNo: 7, global: p1, context: p2, outputH: true, useString: false, result: p1.r(p1, p2, p1.fn7, p4, p5), props: _params0 }
+  1,  _value0,{ _njOpts: true, _njFnsNo: 7, global: p1, context: p2, outputH: true, useString: false, parentName: 'elseif', name: 'for', result: p1.r(p1, p2, p1.fn7, p4, p5), props: _params0 }
 ];
 p1.aa(_params0, _dataRefer0);
 p1.tf(_ex0, 'for', 'ex');
@@ -4213,9 +4213,9 @@ if (_fnH0) {
   _filter1 = p1.f['clickBtn'];
 }
 if (!_filter1) {
-  p1.wn('A filter called "clickBtn" is undefined.');
+  p1.wn('clickBtn', 'f');
 } else {
-  _tmp = _filter1.apply(_fnH0 ? _fnH0.ctx : p2, [_value1, 'next', { _njOpts: true, _njFnsNo: 7, global: p1, context: p2, outputH: true, useString: false, lastValue: _valueL1 }]);
+  _tmp = _filter1.apply(_fnH0 ? _fnH0._njCtx : p2, [_value1, 'next', { _njOpts: true, _njFnsNo: 7, global: p1, context: p2, outputH: true, useString: false, lastValue: _valueL1 }]);
   _valueL1 = _value1;
   _value1 = _tmp;
 }
@@ -4240,9 +4240,9 @@ if (_fnH1) {
   _filter2 = p1.f['isCurrentPage'];
 }
 if (!_filter2) {
-  p1.wn('A filter called "isCurrentPage" is undefined.');
+  p1.wn('isCurrentPage', 'f');
 } else {
-  _tmp = _filter2.apply(_fnH1 ? _fnH1.ctx : p2, [_value2, { _njOpts: true, _njFnsNo: 7, global: p1, context: p2, outputH: true, useString: false, lastValue: _valueL2 }]);
+  _tmp = _filter2.apply(_fnH1 ? _fnH1._njCtx : p2, [_value2, { _njOpts: true, _njFnsNo: 7, global: p1, context: p2, outputH: true, useString: false, lastValue: _valueL2 }]);
   _valueL2 = _value2;
   _value2 = _tmp;
 }
@@ -4256,9 +4256,9 @@ if (_fnH2) {
   _filter3 = p1.f['clickBtn'];
 }
 if (!_filter3) {
-  p1.wn('A filter called "clickBtn" is undefined.');
+  p1.wn('clickBtn', 'f');
 } else {
-  _tmp = _filter3.apply(_fnH2 ? _fnH2.ctx : p2, [_value3, 'last', { _njOpts: true, _njFnsNo: 7, global: p1, context: p2, outputH: true, useString: false, lastValue: _valueL3 }]);
+  _tmp = _filter3.apply(_fnH2 ? _fnH2._njCtx : p2, [_value3, 'last', { _njOpts: true, _njFnsNo: 7, global: p1, context: p2, outputH: true, useString: false, lastValue: _valueL3 }]);
   _valueL3 = _value3;
   _value3 = _tmp;
 }
@@ -4291,9 +4291,9 @@ if (_fnH0) {
   _filter0 = p1.f['isCurrentPage'];
 }
 if (!_filter0) {
-  p1.wn('A filter called "isCurrentPage" is undefined.');
+  p1.wn('isCurrentPage', 'f');
 } else {
-  _tmp = _filter0.apply(_fnH0 ? _fnH0.ctx : p2, [_value0, { _njOpts: true, _njFnsNo: 9, global: p1, context: p2, outputH: true, useString: false, lastValue: _valueL0 }]);
+  _tmp = _filter0.apply(_fnH0 ? _fnH0._njCtx : p2, [_value0, { _njOpts: true, _njFnsNo: 9, global: p1, context: p2, outputH: true, useString: false, lastValue: _valueL0 }]);
   _valueL0 = _value0;
   _value0 = _tmp;
 }
@@ -4307,9 +4307,9 @@ if (_fnH1) {
   _filter1 = p1.f['clickBtn'];
 }
 if (!_filter1) {
-  p1.wn('A filter called "clickBtn" is undefined.');
+  p1.wn('clickBtn', 'f');
 } else {
-  _tmp = _filter1.apply(_fnH1 ? _fnH1.ctx : p2, [_value1, 'index', { _njOpts: true, _njFnsNo: 9, global: p1, context: p2, outputH: true, useString: false, lastValue: _valueL1 }]);
+  _tmp = _filter1.apply(_fnH1 ? _fnH1._njCtx : p2, [_value1, 'index', { _njOpts: true, _njFnsNo: 9, global: p1, context: p2, outputH: true, useString: false, lastValue: _valueL1 }]);
   _valueL1 = _value1;
   _value1 = _tmp;
 }
@@ -4341,9 +4341,9 @@ if (_fnH0) {
   _filter0 = p1.f['isCurrentPage'];
 }
 if (!_filter0) {
-  p1.wn('A filter called "isCurrentPage" is undefined.');
+  p1.wn('isCurrentPage', 'f');
 } else {
-  _tmp = _filter0.apply(_fnH0 ? _fnH0.ctx : p2, [_value0, { _njOpts: true, _njFnsNo: 8, global: p1, context: p2, outputH: true, useString: false, lastValue: _valueL0 }]);
+  _tmp = _filter0.apply(_fnH0 ? _fnH0._njCtx : p2, [_value0, { _njOpts: true, _njFnsNo: 8, global: p1, context: p2, outputH: true, useString: false, lastValue: _valueL0 }]);
   _valueL0 = _value0;
   _value0 = _tmp;
 }
@@ -4357,9 +4357,9 @@ if (_fnH1) {
   _filter1 = p1.f['clickBtn'];
 }
 if (!_filter1) {
-  p1.wn('A filter called "clickBtn" is undefined.');
+  p1.wn('clickBtn', 'f');
 } else {
-  _tmp = _filter1.apply(_fnH1 ? _fnH1.ctx : p2, [_value1, 'first', { _njOpts: true, _njFnsNo: 8, global: p1, context: p2, outputH: true, useString: false, lastValue: _valueL1 }]);
+  _tmp = _filter1.apply(_fnH1 ? _fnH1._njCtx : p2, [_value1, 'first', { _njOpts: true, _njFnsNo: 8, global: p1, context: p2, outputH: true, useString: false, lastValue: _valueL1 }]);
   _valueL1 = _value1;
   _value1 = _tmp;
 }
@@ -4386,9 +4386,9 @@ if (_fnH2) {
   _filter2 = p1.f['clickBtn'];
 }
 if (!_filter2) {
-  p1.wn('A filter called "clickBtn" is undefined.');
+  p1.wn('clickBtn', 'f');
 } else {
-  _tmp = _filter2.apply(_fnH2 ? _fnH2.ctx : p2, [_value2, 'prev', { _njOpts: true, _njFnsNo: 8, global: p1, context: p2, outputH: true, useString: false, lastValue: _valueL2 }]);
+  _tmp = _filter2.apply(_fnH2 ? _fnH2._njCtx : p2, [_value2, 'prev', { _njOpts: true, _njFnsNo: 8, global: p1, context: p2, outputH: true, useString: false, lastValue: _valueL2 }]);
   _valueL2 = _value2;
   _value2 = _tmp;
 }
@@ -4410,7 +4410,7 @@ var _value3 = p2.d('pageIndex'), _valueL3;
 
 var _filter3 = p1.f['-'];
 if (!_filter3) {
-  p1.wn('A filter called "-" is undefined.');
+  p1.wn('-', 'f');
 } else {
   _tmp = _filter3.apply(p2, [_value3, 2]);
   _valueL3 = _value3;
@@ -4420,14 +4420,14 @@ var _value4 = p2.d('pageIndex'), _valueL4;
 
 var _filter4 = p1.f['+'];
 if (!_filter4) {
-  p1.wn('A filter called "+" is undefined.');
+  p1.wn('+', 'f');
 } else {
   _tmp = _filter4.apply(p2, [_value4, 2]);
   _valueL4 = _value4;
   _value4 = _tmp;
 }
 var _dataRefer0 = [
-  _value3,  _value4,{ _njOpts: true, _njFnsNo: 9, global: p1, context: p2, outputH: true, useString: false, result: p1.r(p1, p2, p1.fn9, p4, p5), props: _params2 }
+  _value3,  _value4,{ _njOpts: true, _njFnsNo: 9, global: p1, context: p2, outputH: true, useString: false, parentName: 'elseif', name: 'for', result: p1.r(p1, p2, p1.fn9, p4, p5), props: _params2 }
 ];
 p1.aa(_params2, _dataRefer0);
 p1.tf(_ex0, 'for', 'ex');
@@ -4445,9 +4445,9 @@ if (_fnH3) {
   _filter5 = p1.f['clickBtn'];
 }
 if (!_filter5) {
-  p1.wn('A filter called "clickBtn" is undefined.');
+  p1.wn('clickBtn', 'f');
 } else {
-  _tmp = _filter5.apply(_fnH3 ? _fnH3.ctx : p2, [_value5, 'next', { _njOpts: true, _njFnsNo: 9, global: p1, context: p2, outputH: true, useString: false, lastValue: _valueL5 }]);
+  _tmp = _filter5.apply(_fnH3 ? _fnH3._njCtx : p2, [_value5, 'next', { _njOpts: true, _njFnsNo: 9, global: p1, context: p2, outputH: true, useString: false, lastValue: _valueL5 }]);
   _valueL5 = _value5;
   _value5 = _tmp;
 }
@@ -4472,9 +4472,9 @@ if (_fnH4) {
   _filter6 = p1.f['isCurrentPage'];
 }
 if (!_filter6) {
-  p1.wn('A filter called "isCurrentPage" is undefined.');
+  p1.wn('isCurrentPage', 'f');
 } else {
-  _tmp = _filter6.apply(_fnH4 ? _fnH4.ctx : p2, [_value6, { _njOpts: true, _njFnsNo: 9, global: p1, context: p2, outputH: true, useString: false, lastValue: _valueL6 }]);
+  _tmp = _filter6.apply(_fnH4 ? _fnH4._njCtx : p2, [_value6, { _njOpts: true, _njFnsNo: 9, global: p1, context: p2, outputH: true, useString: false, lastValue: _valueL6 }]);
   _valueL6 = _value6;
   _value6 = _tmp;
 }
@@ -4488,9 +4488,9 @@ if (_fnH5) {
   _filter7 = p1.f['clickBtn'];
 }
 if (!_filter7) {
-  p1.wn('A filter called "clickBtn" is undefined.');
+  p1.wn('clickBtn', 'f');
 } else {
-  _tmp = _filter7.apply(_fnH5 ? _fnH5.ctx : p2, [_value7, 'last', { _njOpts: true, _njFnsNo: 9, global: p1, context: p2, outputH: true, useString: false, lastValue: _valueL7 }]);
+  _tmp = _filter7.apply(_fnH5 ? _fnH5._njCtx : p2, [_value7, 'last', { _njOpts: true, _njFnsNo: 9, global: p1, context: p2, outputH: true, useString: false, lastValue: _valueL7 }]);
   _valueL7 = _value7;
   _value7 = _tmp;
 }
@@ -4523,9 +4523,9 @@ if (_fnH0) {
   _filter0 = p1.f['isCurrentPage'];
 }
 if (!_filter0) {
-  p1.wn('A filter called "isCurrentPage" is undefined.');
+  p1.wn('isCurrentPage', 'f');
 } else {
-  _tmp = _filter0.apply(_fnH0 ? _fnH0.ctx : p2, [_value0, { _njOpts: true, _njFnsNo: 11, global: p1, context: p2, outputH: true, useString: false, lastValue: _valueL0 }]);
+  _tmp = _filter0.apply(_fnH0 ? _fnH0._njCtx : p2, [_value0, { _njOpts: true, _njFnsNo: 11, global: p1, context: p2, outputH: true, useString: false, lastValue: _valueL0 }]);
   _valueL0 = _value0;
   _value0 = _tmp;
 }
@@ -4539,9 +4539,9 @@ if (_fnH1) {
   _filter1 = p1.f['clickBtn'];
 }
 if (!_filter1) {
-  p1.wn('A filter called "clickBtn" is undefined.');
+  p1.wn('clickBtn', 'f');
 } else {
-  _tmp = _filter1.apply(_fnH1 ? _fnH1.ctx : p2, [_value1, 'index', { _njOpts: true, _njFnsNo: 11, global: p1, context: p2, outputH: true, useString: false, lastValue: _valueL1 }]);
+  _tmp = _filter1.apply(_fnH1 ? _fnH1._njCtx : p2, [_value1, 'index', { _njOpts: true, _njFnsNo: 11, global: p1, context: p2, outputH: true, useString: false, lastValue: _valueL1 }]);
   _valueL1 = _value1;
   _value1 = _tmp;
 }
@@ -4573,9 +4573,9 @@ if (_fnH0) {
   _filter0 = p1.f['isCurrentPage'];
 }
 if (!_filter0) {
-  p1.wn('A filter called "isCurrentPage" is undefined.');
+  p1.wn('isCurrentPage', 'f');
 } else {
-  _tmp = _filter0.apply(_fnH0 ? _fnH0.ctx : p2, [_value0, { _njOpts: true, _njFnsNo: 10, global: p1, context: p2, outputH: true, useString: false, lastValue: _valueL0 }]);
+  _tmp = _filter0.apply(_fnH0 ? _fnH0._njCtx : p2, [_value0, { _njOpts: true, _njFnsNo: 10, global: p1, context: p2, outputH: true, useString: false, lastValue: _valueL0 }]);
   _valueL0 = _value0;
   _value0 = _tmp;
 }
@@ -4589,9 +4589,9 @@ if (_fnH1) {
   _filter1 = p1.f['clickBtn'];
 }
 if (!_filter1) {
-  p1.wn('A filter called "clickBtn" is undefined.');
+  p1.wn('clickBtn', 'f');
 } else {
-  _tmp = _filter1.apply(_fnH1 ? _fnH1.ctx : p2, [_value1, 'first', { _njOpts: true, _njFnsNo: 10, global: p1, context: p2, outputH: true, useString: false, lastValue: _valueL1 }]);
+  _tmp = _filter1.apply(_fnH1 ? _fnH1._njCtx : p2, [_value1, 'first', { _njOpts: true, _njFnsNo: 10, global: p1, context: p2, outputH: true, useString: false, lastValue: _valueL1 }]);
   _valueL1 = _value1;
   _value1 = _tmp;
 }
@@ -4618,9 +4618,9 @@ if (_fnH2) {
   _filter2 = p1.f['clickBtn'];
 }
 if (!_filter2) {
-  p1.wn('A filter called "clickBtn" is undefined.');
+  p1.wn('clickBtn', 'f');
 } else {
-  _tmp = _filter2.apply(_fnH2 ? _fnH2.ctx : p2, [_value2, 'prev', { _njOpts: true, _njFnsNo: 10, global: p1, context: p2, outputH: true, useString: false, lastValue: _valueL2 }]);
+  _tmp = _filter2.apply(_fnH2 ? _fnH2._njCtx : p2, [_value2, 'prev', { _njOpts: true, _njFnsNo: 10, global: p1, context: p2, outputH: true, useString: false, lastValue: _valueL2 }]);
   _valueL2 = _value2;
   _value2 = _tmp;
 }
@@ -4642,14 +4642,14 @@ var _value3 = p2.d('pageIndex'), _valueL3;
 
 var _filter3 = p1.f['-'];
 if (!_filter3) {
-  p1.wn('A filter called "-" is undefined.');
+  p1.wn('-', 'f');
 } else {
   _tmp = _filter3.apply(p2, [_value3, 2]);
   _valueL3 = _value3;
   _value3 = _tmp;
 }
 var _dataRefer0 = [
-  _value3,  p2.d('pageCount'),{ _njOpts: true, _njFnsNo: 11, global: p1, context: p2, outputH: true, useString: false, result: p1.r(p1, p2, p1.fn11, p4, p5), props: _params2 }
+  _value3,  p2.d('pageCount'),{ _njOpts: true, _njFnsNo: 11, global: p1, context: p2, outputH: true, useString: false, parentName: 'elseif', name: 'for', result: p1.r(p1, p2, p1.fn11, p4, p5), props: _params2 }
 ];
 p1.aa(_params2, _dataRefer0);
 p1.tf(_ex0, 'for', 'ex');
@@ -4673,9 +4673,9 @@ if (_fnH0) {
   _filter0 = p1.f['isCurrentPage'];
 }
 if (!_filter0) {
-  p1.wn('A filter called "isCurrentPage" is undefined.');
+  p1.wn('isCurrentPage', 'f');
 } else {
-  _tmp = _filter0.apply(_fnH0 ? _fnH0.ctx : p2, [_value0, { _njOpts: true, _njFnsNo: 13, global: p1, context: p2, outputH: true, useString: false, lastValue: _valueL0, level: 4 }]);
+  _tmp = _filter0.apply(_fnH0 ? _fnH0._njCtx : p2, [_value0, { _njOpts: true, _njFnsNo: 13, global: p1, context: p2, outputH: true, useString: false, lastValue: _valueL0, level: 4 }]);
   _valueL0 = _value0;
   _value0 = _tmp;
 }
@@ -4689,9 +4689,9 @@ if (_fnH1) {
   _filter1 = p1.f['clickBtn'];
 }
 if (!_filter1) {
-  p1.wn('A filter called "clickBtn" is undefined.');
+  p1.wn('clickBtn', 'f');
 } else {
-  _tmp = _filter1.apply(_fnH1 ? _fnH1.ctx : p2, [_value1, 'index', { _njOpts: true, _njFnsNo: 13, global: p1, context: p2, outputH: true, useString: false, lastValue: _valueL1, level: 4 }]);
+  _tmp = _filter1.apply(_fnH1 ? _fnH1._njCtx : p2, [_value1, 'index', { _njOpts: true, _njFnsNo: 13, global: p1, context: p2, outputH: true, useString: false, lastValue: _valueL1, level: 4 }]);
   _valueL1 = _value1;
   _value1 = _tmp;
 }
@@ -4715,7 +4715,7 @@ var _params0 = {
   'loopLast': true
 };
 var _dataRefer0 = [
-  1,  p2.d('pageCount'),{ _njOpts: true, _njFnsNo: 13, global: p1, context: p2, outputH: true, useString: p1.us, result: p1.r(p1, p2, p1.fn13, p4, p5), props: _params0, level: 4 }
+  1,  p2.d('pageCount'),{ _njOpts: true, _njFnsNo: 13, global: p1, context: p2, outputH: true, useString: p1.us, parentName: 'if', name: 'for', result: p1.r(p1, p2, p1.fn13, p4, p5), props: _params0, level: 4 }
 ];
 p1.aa(_params0, _dataRefer0);
 p1.tf(_ex0, 'for', 'ex');
@@ -4740,14 +4740,14 @@ if (_fnH0) {
   _filter1 = p1.f['showPartPage'];
 }
 if (!_filter1) {
-  p1.wn('A filter called "showPartPage" is undefined.');
+  p1.wn('showPartPage', 'f');
 } else {
-  _tmp = _filter1.apply(_fnH0 ? _fnH0.ctx : p2, [_value1, 1, { _njOpts: true, _njFnsNo: 5, global: p1, context: p2, outputH: true, useString: false, lastValue: _valueL1 }]);
+  _tmp = _filter1.apply(_fnH0 ? _fnH0._njCtx : p2, [_value1, 1, { _njOpts: true, _njFnsNo: 5, global: p1, context: p2, outputH: true, useString: false, lastValue: _valueL1 }]);
   _valueL1 = _value1;
   _value1 = _tmp;
 }
 var _dataRefer1 = [
-  _value1,{ _njOpts: true, _njFnsNo: 7, global: p1, context: p2, outputH: true, useString: false, subExProps: _paramsE0, result: p1.r(p1, p2, p1.fn6, p4, _paramsE0) }
+  _value1,{ _njOpts: true, _njFnsNo: 7, global: p1, context: p2, outputH: true, useString: false, subExProps: _paramsE0, parentName: 'nj_ex', name: 'elseif', result: p1.r(p1, p2, p1.fn6, p4, _paramsE0) }
 ];
 p1.tf(_ex1, 'elseif', 'ex');
 
@@ -4764,14 +4764,14 @@ if (_fnH1) {
   _filter2 = p1.f['showPartPage'];
 }
 if (!_filter2) {
-  p1.wn('A filter called "showPartPage" is undefined.');
+  p1.wn('showPartPage', 'f');
 } else {
-  _tmp = _filter2.apply(_fnH1 ? _fnH1.ctx : p2, [_value2, 2, { _njOpts: true, _njFnsNo: 7, global: p1, context: p2, outputH: true, useString: false, lastValue: _valueL2 }]);
+  _tmp = _filter2.apply(_fnH1 ? _fnH1._njCtx : p2, [_value2, 2, { _njOpts: true, _njFnsNo: 7, global: p1, context: p2, outputH: true, useString: false, lastValue: _valueL2 }]);
   _valueL2 = _value2;
   _value2 = _tmp;
 }
 var _dataRefer2 = [
-  _value2,{ _njOpts: true, _njFnsNo: 9, global: p1, context: p2, outputH: true, useString: false, subExProps: _paramsE0, result: p1.r(p1, p2, p1.fn8, p4, _paramsE0) }
+  _value2,{ _njOpts: true, _njFnsNo: 9, global: p1, context: p2, outputH: true, useString: false, subExProps: _paramsE0, parentName: 'nj_ex', name: 'elseif', result: p1.r(p1, p2, p1.fn8, p4, _paramsE0) }
 ];
 p1.tf(_ex2, 'elseif', 'ex');
 
@@ -4788,14 +4788,14 @@ if (_fnH2) {
   _filter3 = p1.f['showPartPage'];
 }
 if (!_filter3) {
-  p1.wn('A filter called "showPartPage" is undefined.');
+  p1.wn('showPartPage', 'f');
 } else {
-  _tmp = _filter3.apply(_fnH2 ? _fnH2.ctx : p2, [_value3, 3, { _njOpts: true, _njFnsNo: 9, global: p1, context: p2, outputH: true, useString: false, lastValue: _valueL3 }]);
+  _tmp = _filter3.apply(_fnH2 ? _fnH2._njCtx : p2, [_value3, 3, { _njOpts: true, _njFnsNo: 9, global: p1, context: p2, outputH: true, useString: false, lastValue: _valueL3 }]);
   _valueL3 = _value3;
   _value3 = _tmp;
 }
 var _dataRefer3 = [
-  _value3,{ _njOpts: true, _njFnsNo: 11, global: p1, context: p2, outputH: true, useString: false, subExProps: _paramsE0, result: p1.r(p1, p2, p1.fn10, p4, _paramsE0) }
+  _value3,{ _njOpts: true, _njFnsNo: 11, global: p1, context: p2, outputH: true, useString: false, subExProps: _paramsE0, parentName: 'nj_ex', name: 'elseif', result: p1.r(p1, p2, p1.fn10, p4, _paramsE0) }
 ];
 p1.tf(_ex3, 'elseif', 'ex');
 
@@ -4807,14 +4807,14 @@ var _tmp;
 
 var _filter0 = p1.f['<='];
 if (!_filter0) {
-  p1.wn('A filter called "<=" is undefined.');
+  p1.wn('<=', 'f');
 } else {
   _tmp = _filter0.apply(p2, [_value0, 10]);
   _valueL0 = _value0;
   _value0 = _tmp;
 }
 var _dataRefer0 = [
-  _value0,{ _njOpts: true, _njFnsNo: 13, global: p1, context: p2, outputH: true, useString: p1.us, result: p1.r(p1, p2, p1.fn12, p4, p5), props: _params0, level: 4 }
+  _value0,{ _njOpts: true, _njFnsNo: 13, global: p1, context: p2, outputH: true, useString: p1.us, parentName: 'if', name: 'if', result: p1.r(p1, p2, p1.fn12, p4, p5), props: _params0, level: 4 }
 ];
 p1.aa(_params0, _dataRefer0);
 p1.tf(_ex0, 'if', 'ex');
@@ -4836,9 +4836,9 @@ if (_fnH0) {
   _filter0 = p1.f['clickBtn'];
 }
 if (!_filter0) {
-  p1.wn('A filter called "clickBtn" is undefined.');
+  p1.wn('clickBtn', 'f');
 } else {
-  _tmp = _filter0.apply(_fnH0 ? _fnH0.ctx : p2, [_value0, 'last', { _njOpts: true, _njFnsNo: 14, global: p1, context: p2, outputH: true, useString: false, lastValue: _valueL0, level: 2 }]);
+  _tmp = _filter0.apply(_fnH0 ? _fnH0._njCtx : p2, [_value0, 'last', { _njOpts: true, _njFnsNo: 14, global: p1, context: p2, outputH: true, useString: false, lastValue: _valueL0, level: 2 }]);
   _valueL0 = _value0;
   _value0 = _tmp;
 }
@@ -4975,9 +4975,9 @@ if (_fnH0) {
   _filter0 = p1.f['fixIconSize'];
 }
 if (!_filter0) {
-  p1.wn('A filter called "fixIconSize" is undefined.');
+  p1.wn('fixIconSize', 'f');
 } else {
-  _tmp = _filter0.apply(_fnH0 ? _fnH0.ctx : p2, [_value0, { _njOpts: true, _njFnsNo: 19, global: p1, context: p2, outputH: true, useString: false, lastValue: _valueL0, level: 2 }]);
+  _tmp = _filter0.apply(_fnH0 ? _fnH0._njCtx : p2, [_value0, { _njOpts: true, _njFnsNo: 19, global: p1, context: p2, outputH: true, useString: false, lastValue: _valueL0, level: 2 }]);
   _valueL0 = _value0;
   _value0 = _tmp;
 }
@@ -4997,9 +4997,9 @@ if (_fnH1) {
   _filter1 = p1.f['clickBtn'];
 }
 if (!_filter1) {
-  p1.wn('A filter called "clickBtn" is undefined.');
+  p1.wn('clickBtn', 'f');
 } else {
-  _tmp = _filter1.apply(_fnH1 ? _fnH1.ctx : p2, [_value1, { _njOpts: true, _njFnsNo: 19, global: p1, context: p2, outputH: true, useString: false, lastValue: _valueL1, level: 3 }]);
+  _tmp = _filter1.apply(_fnH1 ? _fnH1._njCtx : p2, [_value1, { _njOpts: true, _njFnsNo: 19, global: p1, context: p2, outputH: true, useString: false, lastValue: _valueL1, level: 3 }]);
   _valueL1 = _value1;
   _value1 = _tmp;
 }
@@ -5033,7 +5033,7 @@ var _compParam1 = [_type1, _params1];
 
 var _ex0 = p1.x['if'];
 var _dataRefer0 = [
-  p2.d('hasFirst'),{ _njOpts: true, _njFnsNo: 3, global: p1, context: p2, outputH: true, useString: p1.us, result: p1.r(p1, p2, p1.fn3, p4, p5), level: 2 }
+  p2.d('hasFirst'),{ _njOpts: true, _njFnsNo: 3, global: p1, context: p2, outputH: true, useString: p1.us, parentName: 'ul', name: 'if', result: p1.r(p1, p2, p1.fn3, p4, p5), level: 2 }
 ];
 p1.tf(_ex0, 'if', 'ex');
 
@@ -5051,9 +5051,9 @@ if (_fnH0) {
   _filter0 = p1.f['clickBtn'];
 }
 if (!_filter0) {
-  p1.wn('A filter called "clickBtn" is undefined.');
+  p1.wn('clickBtn', 'f');
 } else {
-  _tmp = _filter0.apply(_fnH0 ? _fnH0.ctx : p2, [_value0, 'prev', { _njOpts: true, _njFnsNo: 3, global: p1, context: p2, outputH: true, useString: false, lastValue: _valueL0, level: 2 }]);
+  _tmp = _filter0.apply(_fnH0 ? _fnH0._njCtx : p2, [_value0, 'prev', { _njOpts: true, _njFnsNo: 3, global: p1, context: p2, outputH: true, useString: false, lastValue: _valueL0, level: 2 }]);
   _valueL0 = _value0;
   _value0 = _tmp;
 }
@@ -5090,7 +5090,7 @@ var _paramsE0 = {};
 
 var _ex2 = p1.x['else'];
 var _dataRefer2 = [
-{ _njOpts: true, _njFnsNo: 4, global: p1, context: p2, outputH: true, useString: false, subExProps: _paramsE0, result: p1.r(p1, p2, p1.fn4, p4, _paramsE0) }
+{ _njOpts: true, _njFnsNo: 4, global: p1, context: p2, outputH: true, useString: false, subExProps: _paramsE0, parentName: 'nj_ex', name: 'else', result: p1.r(p1, p2, p1.fn4, p4, _paramsE0) }
 ];
 p1.tf(_ex2, 'else', 'ex');
 
@@ -5098,7 +5098,7 @@ _ex2.apply(p2, _dataRefer2);
 
 _params5 = _paramsE0;
 var _dataRefer1 = [
-  p2.d('hasPages'),{ _njOpts: true, _njFnsNo: 13, global: p1, context: p2, outputH: true, useString: p1.us, result: p1.r(p1, p2, p1.fn5, p4, p5), props: _params5, level: 4 }
+  p2.d('hasPages'),{ _njOpts: true, _njFnsNo: 13, global: p1, context: p2, outputH: true, useString: p1.us, parentName: 'ul', name: 'if', result: p1.r(p1, p2, p1.fn5, p4, p5), props: _params5, level: 4 }
 ];
 p1.aa(_params5, _dataRefer1);
 p1.tf(_ex1, 'if', 'ex');
@@ -5120,9 +5120,9 @@ if (_fnH1) {
   _filter1 = p1.f['clickBtn'];
 }
 if (!_filter1) {
-  p1.wn('A filter called "clickBtn" is undefined.');
+  p1.wn('clickBtn', 'f');
 } else {
-  _tmp = _filter1.apply(_fnH1 ? _fnH1.ctx : p2, [_value1, 'next', { _njOpts: true, _njFnsNo: 13, global: p1, context: p2, outputH: true, useString: false, lastValue: _valueL1, level: 2 }]);
+  _tmp = _filter1.apply(_fnH1 ? _fnH1._njCtx : p2, [_value1, 'next', { _njOpts: true, _njFnsNo: 13, global: p1, context: p2, outputH: true, useString: false, lastValue: _valueL1, level: 2 }]);
   _valueL1 = _value1;
   _value1 = _tmp;
 }
@@ -5146,7 +5146,7 @@ _compParam1.push(p1.H(_compParam6));
 
 var _ex3 = p1.x['if'];
 var _dataRefer3 = [
-  p2.d('hasLast'),{ _njOpts: true, _njFnsNo: 14, global: p1, context: p2, outputH: true, useString: p1.us, result: p1.r(p1, p2, p1.fn14, p4, p5), level: 2 }
+  p2.d('hasLast'),{ _njOpts: true, _njFnsNo: 14, global: p1, context: p2, outputH: true, useString: p1.us, parentName: 'ul', name: 'if', result: p1.r(p1, p2, p1.fn14, p4, p5), level: 2 }
 ];
 p1.tf(_ex3, 'if', 'ex');
 
@@ -5154,7 +5154,7 @@ _compParam1.push(_ex3.apply(p2, _dataRefer3));
 
 var _ex4 = p1.x['if'];
 var _dataRefer4 = [
-  p2.d('showPageCount'),{ _njOpts: true, _njFnsNo: 15, global: p1, context: p2, outputH: true, useString: p1.us, result: p1.r(p1, p2, p1.fn15, p4, p5), level: 2 }
+  p2.d('showPageCount'),{ _njOpts: true, _njFnsNo: 15, global: p1, context: p2, outputH: true, useString: p1.us, parentName: 'ul', name: 'if', result: p1.r(p1, p2, p1.fn15, p4, p5), level: 2 }
 ];
 p1.tf(_ex4, 'if', 'ex');
 
@@ -5162,7 +5162,7 @@ _compParam1.push(_ex4.apply(p2, _dataRefer4));
 
 var _ex5 = p1.x['if'];
 var _dataRefer5 = [
-  p2.d('showCount'),{ _njOpts: true, _njFnsNo: 16, global: p1, context: p2, outputH: true, useString: p1.us, result: p1.r(p1, p2, p1.fn16, p4, p5), level: 2 }
+  p2.d('showCount'),{ _njOpts: true, _njFnsNo: 16, global: p1, context: p2, outputH: true, useString: p1.us, parentName: 'ul', name: 'if', result: p1.r(p1, p2, p1.fn16, p4, p5), level: 2 }
 ];
 p1.tf(_ex5, 'if', 'ex');
 
@@ -5170,7 +5170,7 @@ _compParam1.push(_ex5.apply(p2, _dataRefer5));
 
 var _ex6 = p1.x['if'];
 var _dataRefer6 = [
-  p2.d('showPageSize'),{ _njOpts: true, _njFnsNo: 17, global: p1, context: p2, outputH: true, useString: p1.us, result: p1.r(p1, p2, p1.fn17, p4, p5), level: 2 }
+  p2.d('showPageSize'),{ _njOpts: true, _njFnsNo: 17, global: p1, context: p2, outputH: true, useString: p1.us, parentName: 'ul', name: 'if', result: p1.r(p1, p2, p1.fn17, p4, p5), level: 2 }
 ];
 p1.tf(_ex6, 'if', 'ex');
 
@@ -5178,7 +5178,7 @@ _compParam1.push(_ex6.apply(p2, _dataRefer6));
 
 var _ex7 = p1.x['if'];
 var _dataRefer7 = [
-  p2.d('hasBtnGo'),{ _njOpts: true, _njFnsNo: 18, global: p1, context: p2, outputH: true, useString: p1.us, result: p1.r(p1, p2, p1.fn18, p4, p5), level: 2 }
+  p2.d('hasBtnGo'),{ _njOpts: true, _njFnsNo: 18, global: p1, context: p2, outputH: true, useString: p1.us, parentName: 'ul', name: 'if', result: p1.r(p1, p2, p1.fn18, p4, p5), level: 2 }
 ];
 p1.tf(_ex7, 'if', 'ex');
 
@@ -5186,7 +5186,7 @@ _compParam1.push(_ex7.apply(p2, _dataRefer7));
 
 var _ex8 = p1.x['if'];
 var _dataRefer8 = [
-  p2.d('showRefresh'),{ _njOpts: true, _njFnsNo: 19, global: p1, context: p2, outputH: true, useString: p1.us, result: p1.r(p1, p2, p1.fn19, p4, p5), level: 2 }
+  p2.d('showRefresh'),{ _njOpts: true, _njFnsNo: 19, global: p1, context: p2, outputH: true, useString: p1.us, parentName: 'ul', name: 'if', result: p1.r(p1, p2, p1.fn19, p4, p5), level: 2 }
 ];
 p1.tf(_ex8, 'if', 'ex');
 
@@ -5205,7 +5205,7 @@ var _paramsE0 = {};
 
 var _ex1 = p1.x['else'];
 var _dataRefer1 = [
-{ _njOpts: true, _njFnsNo: 1, global: p1, context: p2, outputH: true, useString: false, subExProps: _paramsE0, result: p1.r(p1, p2, p1.fn1, p4, _paramsE0) }
+{ _njOpts: true, _njFnsNo: 1, global: p1, context: p2, outputH: true, useString: false, subExProps: _paramsE0, parentName: 'nj_ex', name: 'else', result: p1.r(p1, p2, p1.fn1, p4, _paramsE0) }
 ];
 p1.tf(_ex1, 'else', 'ex');
 
@@ -5217,14 +5217,14 @@ var _tmp;
 
 var _filter0 = p1.f['>='];
 if (!_filter0) {
-  p1.wn('A filter called ">=" is undefined.');
+  p1.wn('>=', 'f');
 } else {
   _tmp = _filter0.apply(p2, [_value0, 1]);
   _valueL0 = _value0;
   _value0 = _tmp;
 }
 var _dataRefer0 = [
-  _value0,{ _njOpts: true, _njFnsNo: 19, global: p1, context: p2, outputH: true, useString: p1.us, result: p1.r(p1, p2, p1.fn2, p4, p5), props: _params0, level: 0 }
+  _value0,{ _njOpts: true, _njFnsNo: 19, global: p1, context: p2, outputH: true, useString: p1.us, parentName: 'nj_root', name: 'if', result: p1.r(p1, p2, p1.fn2, p4, p5), props: _params0, level: 0 }
 ];
 p1.aa(_params0, _dataRefer0);
 p1.tf(_ex0, 'if', 'ex');
@@ -5244,7 +5244,7 @@ var _paramsE0 = {};
 
 var _ex0 = p1.x['spread'];
 var _dataRefer0 = [
-  p2.d('props'),{ _njOpts: true, _njFnsNo: 0, global: p1, context: p2, outputH: true, useString: false, exProps: _paramsE0, subExProps: p5, result: p1.np }
+  p2.d('props'),{ _njOpts: true, _njFnsNo: 0, global: p1, context: p2, outputH: true, useString: false, exProps: _paramsE0, subExProps: p5, parentName: 'div', name: 'spread', result: p1.np }
 ];
 p1.tf(_ex0, 'spread', 'ex');
 
@@ -5281,7 +5281,7 @@ var _paramsE0 = {};
 
 var _ex0 = p1.x['spread'];
 var _dataRefer0 = [
-  p2.d('props'),{ _njOpts: true, _njFnsNo: 0, global: p1, context: p2, outputH: true, useString: false, exProps: _paramsE0, subExProps: p5, result: p1.np }
+  p2.d('props'),{ _njOpts: true, _njFnsNo: 0, global: p1, context: p2, outputH: true, useString: false, exProps: _paramsE0, subExProps: p5, parentName: 'div', name: 'spread', result: p1.np }
 ];
 p1.tf(_ex0, 'spread', 'ex');
 
@@ -5342,7 +5342,7 @@ var _compParam0 = [_type0, _params0];
 
 var _ex0 = p1.x['each'];
 var _dataRefer0 = [
-  p2.d('pageSizes'),{ _njOpts: true, _njFnsNo: 3, global: p1, context: p2, outputH: true, useString: p1.us, result: p1.r(p1, p2, p1.fn3, p4, p5), level: 2 }
+  p2.d('pageSizes'),{ _njOpts: true, _njFnsNo: 3, global: p1, context: p2, outputH: true, useString: p1.us, parentName: 'select', name: 'each', result: p1.r(p1, p2, p1.fn3, p4, p5), level: 2 }
 ];
 p1.tf(_ex0, 'each', 'ex');
 
@@ -5359,7 +5359,7 @@ var _paramsE0 = {};
 
 var _ex0 = p1.x['spread'];
 var _dataRefer0 = [
-  p2.d('props'),{ _njOpts: true, _njFnsNo: 0, global: p1, context: p2, outputH: true, useString: false, exProps: _paramsE0, subExProps: p5, result: p1.np }
+  p2.d('props'),{ _njOpts: true, _njFnsNo: 0, global: p1, context: p2, outputH: true, useString: false, exProps: _paramsE0, subExProps: p5, parentName: 'div', name: 'spread', result: p1.np }
 ];
 p1.tf(_ex0, 'spread', 'ex');
 
@@ -5378,7 +5378,7 @@ var _paramsE1 = {};
 
 var _ex2 = p1.x['else'];
 var _dataRefer2 = [
-{ _njOpts: true, _njFnsNo: 1, global: p1, context: p2, outputH: true, useString: false, subExProps: _paramsE1, result: p1.r(p1, p2, p1.fn1, p4, _paramsE1) }
+{ _njOpts: true, _njFnsNo: 1, global: p1, context: p2, outputH: true, useString: false, subExProps: _paramsE1, parentName: 'nj_ex', name: 'else', result: p1.r(p1, p2, p1.fn1, p4, _paramsE1) }
 ];
 p1.tf(_ex2, 'else', 'ex');
 
@@ -5386,7 +5386,7 @@ _ex2.apply(p2, _dataRefer2);
 
 _params1 = _paramsE1;
 var _dataRefer1 = [
-  p2.d('setPageSize'),{ _njOpts: true, _njFnsNo: 3, global: p1, context: p2, outputH: true, useString: p1.us, result: p1.r(p1, p2, p1.fn2, p4, p5), props: _params1, level: 1 }
+  p2.d('setPageSize'),{ _njOpts: true, _njFnsNo: 3, global: p1, context: p2, outputH: true, useString: p1.us, parentName: 'div', name: 'if', result: p1.r(p1, p2, p1.fn2, p4, p5), props: _params1, level: 1 }
 ];
 p1.aa(_params1, _dataRefer1);
 p1.tf(_ex1, 'if', 'ex');
@@ -6086,7 +6086,7 @@ var ret = [];
 
 var _ex0 = p1.x['prop'];
 var _dataRefer0 = [
-  'onTouchStart',{ _njOpts: true, _njFnsNo: 2, global: p1, context: p2, outputH: true, useString: false, exProps: p4, subExProps: p5, result: p1.r(p1, p2, p1.fn2, p4, p5) }
+  'onTouchStart',{ _njOpts: true, _njFnsNo: 2, global: p1, context: p2, outputH: true, useString: false, exProps: p4, subExProps: p5, parentName: 'if', name: 'prop', result: p1.r(p1, p2, p1.fn2, p4, p5) }
 ];
 p1.tf(_ex0, 'prop', 'ex');
 
@@ -6094,7 +6094,7 @@ ret.push(_ex0.apply(p2, _dataRefer0));
 
 var _ex1 = p1.x['prop'];
 var _dataRefer1 = [
-  'onTouchMove',{ _njOpts: true, _njFnsNo: 3, global: p1, context: p2, outputH: true, useString: false, exProps: p4, subExProps: p5, result: p1.r(p1, p2, p1.fn3, p4, p5) }
+  'onTouchMove',{ _njOpts: true, _njFnsNo: 3, global: p1, context: p2, outputH: true, useString: false, exProps: p4, subExProps: p5, parentName: 'if', name: 'prop', result: p1.r(p1, p2, p1.fn3, p4, p5) }
 ];
 p1.tf(_ex1, 'prop', 'ex');
 
@@ -6102,7 +6102,7 @@ ret.push(_ex1.apply(p2, _dataRefer1));
 
 var _ex2 = p1.x['prop'];
 var _dataRefer2 = [
-  'onTouchEnd',{ _njOpts: true, _njFnsNo: 4, global: p1, context: p2, outputH: true, useString: false, exProps: p4, subExProps: p5, result: p1.r(p1, p2, p1.fn4, p4, p5) }
+  'onTouchEnd',{ _njOpts: true, _njFnsNo: 4, global: p1, context: p2, outputH: true, useString: false, exProps: p4, subExProps: p5, parentName: 'if', name: 'prop', result: p1.r(p1, p2, p1.fn4, p4, p5) }
 ];
 p1.tf(_ex2, 'prop', 'ex');
 
@@ -6110,7 +6110,7 @@ ret.push(_ex2.apply(p2, _dataRefer2));
 
 var _ex3 = p1.x['prop'];
 var _dataRefer3 = [
-  'onTouchCancel',{ _njOpts: true, _njFnsNo: 5, global: p1, context: p2, outputH: true, useString: false, exProps: p4, subExProps: p5, result: p1.r(p1, p2, p1.fn5, p4, p5) }
+  'onTouchCancel',{ _njOpts: true, _njFnsNo: 5, global: p1, context: p2, outputH: true, useString: false, exProps: p4, subExProps: p5, parentName: 'if', name: 'prop', result: p1.r(p1, p2, p1.fn5, p4, p5) }
 ];
 p1.tf(_ex3, 'prop', 'ex');
 
@@ -6138,7 +6138,7 @@ var _paramsE0 = {};
 
 var _ex1 = p1.x['if'];
 var _dataRefer1 = [
-  p2.d('isMobile'),{ _njOpts: true, _njFnsNo: 5, global: p1, context: p2, outputH: true, useString: false, result: p1.r(p1, p2, p1.fn1, _paramsE0, p5) }
+  p2.d('isMobile'),{ _njOpts: true, _njFnsNo: 5, global: p1, context: p2, outputH: true, useString: false, parentName: 'nj_ex', name: 'if', result: p1.r(p1, p2, p1.fn1, _paramsE0, p5) }
 ];
 p1.tf(_ex1, 'if', 'ex');
 
@@ -6148,12 +6148,12 @@ _params0 = _paramsE0;
 _params0['ref'] = p2.d('ref');
 _params0['style'] = p1.sp(p2.d('style'));
 var _dataRefer0 = [
-{ _njOpts: true, _njFnsNo: 6, global: p1, context: p2, outputH: true, useString: p1.us, exProps: p4, subExProps: p5, result: p1.r(p1, p2, p1.fn6, p4, p5), props: _params0, level: 0 }
+{ _njOpts: true, _njFnsNo: 6, global: p1, context: p2, outputH: true, useString: p1.us, exProps: p4, subExProps: p5, parentName: 'nj_root', name: 'cloneElem', result: p1.r(p1, p2, p1.fn6, p4, p5), props: _params0, level: 0 }
 ];
 p1.aa(_params0, _dataRefer0);
 p1.tf(_ex0, 'cloneElem', 'ex');
 
-return _ex0.apply(_fnH0 ? _fnH0.ctx : p2, _dataRefer0);
+return _ex0.apply(_fnH0 ? _fnH0._njCtx : p2, _dataRefer0);
 }
 });
 
@@ -6472,7 +6472,7 @@ var _tmp;
 
 var _filter0 = p1.f['/'];
 if (!_filter0) {
-  p1.wn('A filter called "/" is undefined.');
+  p1.wn('/', 'f');
 } else {
   _tmp = _filter0.apply(p2, [_value0, 2]);
   _valueL0 = _value0;
@@ -6482,7 +6482,7 @@ var _value1 = p2.d('gutter'), _valueL1;
 
 var _filter1 = p1.f['/'];
 if (!_filter1) {
-  p1.wn('A filter called "/" is undefined.');
+  p1.wn('/', 'f');
 } else {
   _tmp = _filter1.apply(p2, [_value1, 2]);
   _valueL1 = _value1;
@@ -6493,7 +6493,7 @@ var _params0 = {
   'paddingRight': _value1
 };
 var _dataRefer0 = [
-{ _njOpts: true, _njFnsNo: 6, global: p1, context: p2, outputH: true, useString: false, result: p1.np, props: _params0 }
+{ _njOpts: true, _njFnsNo: 6, global: p1, context: p2, outputH: true, useString: false, parentName: 'assign', name: 'obj', result: p1.np, props: _params0 }
 ];
 p1.aa(_params0, _dataRefer0);
 p1.tf(_ex0, 'obj', 'ex');
@@ -6510,16 +6510,36 @@ if (_fnH0) {
 } else {
   _ex0 = p1.x['assign'];
 }
+var _value0 = p2.d('@child'), _valueL0;
+var _tmp;
+
+var _filter0 = p1.f['.'];
+if (!_filter0) {
+  p1.wn('.', 'f');
+} else {
+  _tmp = _filter0.apply(p2, [_value0, 'props']);
+  _valueL0 = _value0;
+  _value0 = _tmp;
+}
+
+var _filter1 = p1.f['.'];
+if (!_filter1) {
+  p1.wn('.', 'f');
+} else {
+  _tmp = _filter1.apply(p2, [_value0, 'style']);
+  _valueL0 = _value0;
+  _value0 = _tmp;
+}
 var _params0 = {
-  'from': p2.d('@child').props.style
+  'from': _value0
 };
 var _dataRefer0 = [
-{ _njOpts: true, _njFnsNo: 6, global: p1, context: p2, outputH: true, useString: false, exProps: p4, subExProps: p5, result: p1.r(p1, p2, p1.fn6, p4, p5), props: _params0 }
+{ _njOpts: true, _njFnsNo: 6, global: p1, context: p2, outputH: true, useString: false, exProps: p4, subExProps: p5, parentName: 'prop', name: 'assign', result: p1.r(p1, p2, p1.fn6, p4, p5), props: _params0 }
 ];
 p1.aa(_params0, _dataRefer0);
 p1.tf(_ex0, 'assign', 'ex');
 
-return _ex0.apply(_fnH0 ? _fnH0.ctx : p2, _dataRefer0);
+return _ex0.apply(_fnH0 ? _fnH0._njCtx : p2, _dataRefer0);
 },
   fn7: function anonymous(p1,p2,p3,p4,p5
 /**/) {
@@ -6542,7 +6562,7 @@ var _paramsE0 = {};
 
 var _ex1 = p1.x['prop'];
 var _dataRefer1 = [
-  'style',{ _njOpts: true, _njFnsNo: 6, global: p1, context: p2, outputH: true, useString: false, exProps: _paramsE0, subExProps: p5, result: p1.r(p1, p2, p1.fn5, _paramsE0, p5) }
+  'style',{ _njOpts: true, _njFnsNo: 6, global: p1, context: p2, outputH: true, useString: false, exProps: _paramsE0, subExProps: p5, parentName: 'nj_ex', name: 'prop', result: p1.r(p1, p2, p1.fn5, _paramsE0, p5) }
 ];
 p1.tf(_ex1, 'prop', 'ex');
 
@@ -6550,12 +6570,12 @@ _ex1.apply(p2, _dataRefer1);
 
 _params0 = _paramsE0;
 var _dataRefer0 = [
-{ _njOpts: true, _njFnsNo: 7, global: p1, context: p2, outputH: true, useString: p1.us, exProps: p4, subExProps: p5, result: p1.r(p1, p2, p1.fn7, p4, p5), props: _params0, level: 1 }
+{ _njOpts: true, _njFnsNo: 7, global: p1, context: p2, outputH: true, useString: p1.us, exProps: p4, subExProps: p5, parentName: 'if', name: 'cloneElem', result: p1.r(p1, p2, p1.fn7, p4, p5), props: _params0, level: 1 }
 ];
 p1.aa(_params0, _dataRefer0);
 p1.tf(_ex0, 'cloneElem', 'ex');
 
-return _ex0.apply(_fnH0 ? _fnH0.ctx : p2, _dataRefer0);
+return _ex0.apply(_fnH0 ? _fnH0._njCtx : p2, _dataRefer0);
 },
   fn3: function anonymous(p1,p2,p3,p4,p5
 /**/) {
@@ -6567,14 +6587,14 @@ var _tmp;
 
 var _filter0 = p1.f['!='];
 if (!_filter0) {
-  p1.wn('A filter called "!=" is undefined.');
+  p1.wn('!=', 'f');
 } else {
   _tmp = _filter0.apply(p2, [_value0, null]);
   _valueL0 = _value0;
   _value0 = _tmp;
 }
 var _dataRefer0 = [
-  _value0,{ _njOpts: true, _njFnsNo: 7, global: p1, context: p2, outputH: true, useString: p1.us, result: p1.r(p1, p2, p1.fn4, p4, p5), level: 1 }
+  _value0,{ _njOpts: true, _njFnsNo: 7, global: p1, context: p2, outputH: true, useString: p1.us, parentName: 'childrenEach', name: 'if', result: p1.r(p1, p2, p1.fn4, p4, p5), level: 1 }
 ];
 p1.tf(_ex0, 'if', 'ex');
 
@@ -6591,11 +6611,11 @@ if (_fnH0) {
   _ex0 = p1.x['childrenEach'];
 }
 var _dataRefer0 = [
-  p2.d('children'),{ _njOpts: true, _njFnsNo: 7, global: p1, context: p2, outputH: true, useString: p1.us, exProps: p4, subExProps: p5, result: p1.r(p1, p2, p1.fn3, p4, p5), level: 1 }
+  p2.d('children'),{ _njOpts: true, _njFnsNo: 7, global: p1, context: p2, outputH: true, useString: p1.us, exProps: p4, subExProps: p5, parentName: 'if', name: 'childrenEach', result: p1.r(p1, p2, p1.fn3, p4, p5), level: 1 }
 ];
 p1.tf(_ex0, 'childrenEach', 'ex');
 
-return _ex0.apply(_fnH0 ? _fnH0.ctx : p2, _dataRefer0);
+return _ex0.apply(_fnH0 ? _fnH0._njCtx : p2, _dataRefer0);
 },
   main: function anonymous(p1,p2,p3,p4,p5
 /**/) {
@@ -6606,7 +6626,7 @@ var _paramsE0 = {};
 
 var _ex0 = p1.x['spread'];
 var _dataRefer0 = [
-  p2.d('props'),{ _njOpts: true, _njFnsNo: 0, global: p1, context: p2, outputH: true, useString: false, exProps: _paramsE0, subExProps: p5, result: p1.np }
+  p2.d('props'),{ _njOpts: true, _njFnsNo: 0, global: p1, context: p2, outputH: true, useString: false, exProps: _paramsE0, subExProps: p5, parentName: 'div', name: 'spread', result: p1.np }
 ];
 p1.tf(_ex0, 'spread', 'ex');
 
@@ -6624,7 +6644,7 @@ var _paramsE1 = {};
 
 var _ex2 = p1.x['else'];
 var _dataRefer2 = [
-{ _njOpts: true, _njFnsNo: 1, global: p1, context: p2, outputH: true, useString: false, subExProps: _paramsE1, result: p1.r(p1, p2, p1.fn1, p4, _paramsE1) }
+{ _njOpts: true, _njFnsNo: 1, global: p1, context: p2, outputH: true, useString: false, subExProps: _paramsE1, parentName: 'nj_ex', name: 'else', result: p1.r(p1, p2, p1.fn1, p4, _paramsE1) }
 ];
 p1.tf(_ex2, 'else', 'ex');
 
@@ -6636,13 +6656,13 @@ var _tmp;
 
 var _filter0 = p1.f['&&'];
 if (!_filter0) {
-  p1.wn('A filter called "&&" is undefined.');
+  p1.wn('&&', 'f');
 } else {
 var _value1 = p2.d('gutter'), _valueL1;
 
 var _filter1 = p1.f['>'];
 if (!_filter1) {
-  p1.wn('A filter called ">" is undefined.');
+  p1.wn('>', 'f');
 } else {
   _tmp = _filter1.apply(p2, [_value1, 0]);
   _valueL1 = _value1;
@@ -6653,7 +6673,7 @@ if (!_filter1) {
   _value0 = _tmp;
 }
 var _dataRefer1 = [
-  _value0,{ _njOpts: true, _njFnsNo: 7, global: p1, context: p2, outputH: true, useString: p1.us, result: p1.r(p1, p2, p1.fn2, p4, p5), props: _params1, level: 1 }
+  _value0,{ _njOpts: true, _njFnsNo: 7, global: p1, context: p2, outputH: true, useString: p1.us, parentName: 'div', name: 'if', result: p1.r(p1, p2, p1.fn2, p4, p5), props: _params1, level: 1 }
 ];
 p1.aa(_params1, _dataRefer1);
 p1.tf(_ex1, 'if', 'ex');
@@ -6675,7 +6695,7 @@ var _paramsE0 = {};
 
 var _ex0 = p1.x['spread'];
 var _dataRefer0 = [
-  p2.d('props'),{ _njOpts: true, _njFnsNo: 0, global: p1, context: p2, outputH: true, useString: false, exProps: _paramsE0, subExProps: p5, result: p1.np }
+  p2.d('props'),{ _njOpts: true, _njFnsNo: 0, global: p1, context: p2, outputH: true, useString: false, exProps: _paramsE0, subExProps: p5, parentName: 'div', name: 'spread', result: p1.np }
 ];
 p1.tf(_ex0, 'spread', 'ex');
 
@@ -6703,7 +6723,7 @@ var _paramsE0 = {};
 
 var _ex0 = p1.x['spread'];
 var _dataRefer0 = [
-  p2.d('props'),{ _njOpts: true, _njFnsNo: 0, global: p1, context: p2, outputH: true, useString: false, exProps: _paramsE0, subExProps: p5, result: p1.np }
+  p2.d('props'),{ _njOpts: true, _njFnsNo: 0, global: p1, context: p2, outputH: true, useString: false, exProps: _paramsE0, subExProps: p5, parentName: 'div', name: 'spread', result: p1.np }
 ];
 p1.tf(_ex0, 'spread', 'ex');
 
