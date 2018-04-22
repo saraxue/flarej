@@ -12,7 +12,9 @@
 
 ```
 
-`FlareJ`是一个基于`React`和`NornJ`的UI组件库
+`FlareJ`是一个基于`React`和[`NornJ`模板引擎](https://github.com/joe-sky/nornj)的UI组件库。
+
+> [`FlareJ`的前身](https://github.com/joe-sky/flarej-jquery)是一个基于jQuery的UI组件库，在2011-2015年曾服务于`jd.com`内部多个PC及移动端系统中。
 
 [![NPM Version][npm-image]][npm-url]
 [![NPM Downloads][downloads-image]][npm-url]
