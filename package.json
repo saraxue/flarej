@@ -1,6 +1,6 @@
 {
   "name": "flarej",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "An ui components library based on React and NornJ",
   "main": "lib/base.js",
   "files": [
