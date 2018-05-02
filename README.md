@@ -26,12 +26,18 @@
 ### 原创组件
 
 * [Pagination(分页)](https://github.com/joe-sky/flarej/blob/master/examples/pagination.html)
+  * [PageCount](https://github.com/joe-sky/flarej/blob/master/src/components/pagination/pagination.js#L288)
+  * [PageDataCount](https://github.com/joe-sky/flarej/blob/master/src/components/pagination/pagination.js#L332)
+  * [PageSize](https://github.com/joe-sky/flarej/blob/master/src/components/pagination/pagination.js#L369)
 * [Grid(栅格)](https://github.com/joe-sky/flarej/blob/master/examples/grid.html)
+  * [Row](https://github.com/joe-sky/flarej/blob/master/src/components/grid/grid.js#L12)
+  * [RowLeft](https://github.com/joe-sky/flarej/blob/master/src/components/grid/grid.js#L101)
+  * [RowRight](https://github.com/joe-sky/flarej/blob/master/src/components/grid/grid.js#L113)
+  * [Col](https://github.com/joe-sky/flarej/blob/master/src/components/grid/grid.js#L125)
+  * [Clearfix](https://github.com/joe-sky/flarej/blob/master/src/components/grid/grid.js#L182)
 * [Gesture(手势)](https://github.com/joe-sky/flarej/blob/master/examples/gesture.html)
 
-#### 使用babel-plugin-import引入原创组件
-
-.babelrc配置：
+可以使用[babel-plugin-import](https://github.com/ant-design/babel-plugin-import)按需引入以上组件，`.babelrc`配置：
 
 ```js
 {
@@ -43,6 +49,12 @@
     }]
   ]
 }
+```
+
+引入组件：
+
+```js
+import { Row, Col, Pagination } from 'flarej';
 ```
 
 ### 高阶组件
