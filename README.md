@@ -12,9 +12,9 @@
 
 ```
 
-`FlareJ`是一个基于`React`和[`NornJ`模板引擎](https://github.com/joe-sky/nornj)的UI组件库。
+`FlareJ`是一个基于`React`和[NornJ模板引擎](https://github.com/joe-sky/nornj)的UI组件库。
 
-> [`FlareJ`的前身](https://github.com/joe-sky/flarej-jquery)是一个基于jQuery的UI组件库，在2011-2015年曾服务于`jd.com`内部多个PC及移动端系统中。
+> [FlareJ的前身](https://github.com/joe-sky/flarej-jquery)是一个基于jQuery的UI组件库，在2011-2015年曾服务于`jd.com`内部多个PC及移动端系统中。
 
 [![NPM Version][npm-image]][npm-url]
 [![NPM Downloads][downloads-image]][npm-url]
@@ -25,10 +25,29 @@
 
 ### 原创组件
 
-* [Responsive(响应式高阶组件)](https://github.com/joe-sky/flarej/blob/master/src/higherOrders/responsive.js)
 * [Pagination(分页)](https://github.com/joe-sky/flarej/blob/master/examples/pagination.html)
 * [Grid(栅格)](https://github.com/joe-sky/flarej/blob/master/examples/grid.html)
 * [Gesture(手势)](https://github.com/joe-sky/flarej/blob/master/examples/gesture.html)
+
+#### 使用babel-plugin-import引入原创组件
+
+.babelrc配置：
+
+```js
+{
+  "plugins": [
+    ["import", {
+      "libraryName": "flarej",
+      "libraryDirectory": "lib/components",
+      "style": true
+    }]
+  ]
+}
+```
+
+### 高阶组件
+
+* [Responsive(响应式组件)](https://github.com/joe-sky/flarej/blob/master/src/higherOrders/responsive.js)
 
 ### 第三方组件
 
