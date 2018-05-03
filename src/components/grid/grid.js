@@ -1,5 +1,6 @@
 ﻿import fj from '../../core';
 import { Component } from 'react';
+import nj from 'nornj';
 import { registerTmpl } from 'nornj-react';
 import classNames from 'classnames';
 import '../../njHelpers';
@@ -213,3 +214,11 @@ Object.assign(fj, {
   Col,
   Clearfix
 });
+
+export default {
+  Row,
+  RowLeft,
+  RowRight,
+  Col,
+  Clearfix
+};

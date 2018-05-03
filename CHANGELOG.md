@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## [v0.2.3] 2018.5.3
+
+* 🌟 使用[babel-plugin-nornj-loader](https://github.com/yuhongda/babel-plugin-nornj-loader)构建预编译`NornJ`模板的组件版本(存放在`lib-p`目录)，该目录下的组件代码无需`nornj-loader`也可运行。
+
 ## [v0.2.2] 2018.5.2
 
 * 🌟 各原创组件支持使用[babel-plugin-import](https://github.com/joe-sky/flarej/blob/master/README.md#原创组件)方式引入。
