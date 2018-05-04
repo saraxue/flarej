@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## [v0.2.4] 2018.5.4
+
+* 🐞 修复`TreeChart`组件变量名错误。
+
 ## [v0.2.3] 2018.5.3
 
 * 🌟 使用[babel-plugin-nornj-loader](https://github.com/yuhongda/babel-plugin-nornj-loader)构建预编译`NornJ`模板的组件版本(存放在`lib-p`目录)，该目录下的组件代码无需`nornj-loader`也可运行。

@@ -5,7 +5,7 @@ import EChartsEnhance from './EChartsEnhance';
 import 'echarts/lib/chart/tree';
 import template from './ECharts.t.html';
 
-class TreeMapChart extends Component {
+class TreeChart extends Component {
   static propTypes = {
     type: PropTypes.string
   };
