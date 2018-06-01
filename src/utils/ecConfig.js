@@ -57,13 +57,13 @@ function _setSeriesType(series, type) {
 }
 
 //创建图表
-export function createChart(render, chartData, option) {
+export function createChart(render, chartData, option, expandOption) {
   if (chartData) {
     option.series = chartData;
     _setSeriesType(option.series, option._type);
   }
 
-  var chart = echarts.init(render);
+  var chart = echarts.init(render, null, expandOption);
   chart.setOption(option);
   return chart;
 }
