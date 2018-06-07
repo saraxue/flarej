@@ -18,7 +18,8 @@ const EChartsEnhance = (ComposedComponent) => {
       option: PropTypes.object,
       data: PropTypes.array,
       title: PropTypes.string,
-      subTitle: PropTypes.string
+      subTitle: PropTypes.string,
+      expandOption: PropTypes.object
     };
 
     static defaultProps = {
@@ -37,7 +38,7 @@ const EChartsEnhance = (ComposedComponent) => {
 
     createChart() {
       this.chartOption = this.createOption();
-      this.chart = createChart(this.component.refs.chart.wrap, this.props.data, this.chartOption);
+      this.chart = createChart(this.component.refs.chart.wrap, this.props.data, this.chartOption, this.props.expandOption);
     }
 
     componentDidMount() {
