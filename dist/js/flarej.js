@@ -1668,6 +1668,8 @@ var RowLeft = (_dec2 = Object(__WEBPACK_IMPORTED_MODULE_3_nornj_react__["registe
   return RowLeft;
 }(__WEBPACK_IMPORTED_MODULE_1_react__["Component"])) || _class2);
 
+Row.Left = RowLeft;
+
 /**
  * Grid row right container
  */
@@ -1686,6 +1688,8 @@ var RowRight = (_dec3 = Object(__WEBPACK_IMPORTED_MODULE_3_nornj_react__["regist
 
   return RowRight;
 }(__WEBPACK_IMPORTED_MODULE_1_react__["Component"])) || _class3);
+
+Row.Right = RowRight;
 
 /**
  * Grid col
@@ -3719,7 +3723,7 @@ var nj = __webpack_require__(0);
 
 module.exports = {
   emptyElem: nj.compileH({
-  _njTmplKey: 1247733533,
+  _njTmplKey: -1513055049,
   useString: false,
   main: function anonymous(p1,p2,p3,p4,p5
 /*``*/) {
@@ -3746,7 +3750,7 @@ var nj = __webpack_require__(0);
 
 module.exports = {
   responsive: nj.compileH({
-  _njTmplKey: -224111942,
+  _njTmplKey: 1248492026,
   useString: false,
   main: function anonymous(p1,p2,p3,p4,p5
 /*``*/) {
@@ -4363,7 +4367,7 @@ var nj = __webpack_require__(0);
 
 module.exports = {
   pagination: nj.compileH({
-  _njTmplKey: -597352358,
+  _njTmplKey: 264054749,
   useString: false,
   fn1: function anonymous(p1,p2,p3,p4,p5
 /*``*/) {
@@ -5537,7 +5541,7 @@ return _ex0.apply(p2, _dataRefer0);
 }
 }),
   pageCount: nj.compileH({
-  _njTmplKey: 751003426,
+  _njTmplKey: -403858224,
   useString: false,
   main: function anonymous(p1,p2,p3,p4,p5
 /*``*/) {
@@ -5574,7 +5578,7 @@ return p1.H(_compParam0);
 }
 }),
   pageDataCount: nj.compileH({
-  _njTmplKey: -425295311,
+  _njTmplKey: -1267742177,
   useString: false,
   main: function anonymous(p1,p2,p3,p4,p5
 /*``*/) {
@@ -5611,7 +5615,7 @@ return p1.H(_compParam0);
 }
 }),
   pageSize: nj.compileH({
-  _njTmplKey: 1414482869,
+  _njTmplKey: 1123603552,
   useString: false,
   fn1: function anonymous(p1,p2,p3,p4,p5
 /*``*/) {
@@ -5774,7 +5778,7 @@ var nj = __webpack_require__(0);
 
 module.exports = {
   row: nj.compileH({
-  _njTmplKey: -1091655957,
+  _njTmplKey: -1333168606,
   useString: false,
   fn1: function anonymous(p1,p2,p3,p4,p5
 /*``*/) {
@@ -6003,7 +6007,7 @@ return p1.H(_compParam0);
 }
 }),
   col: nj.compileH({
-  _njTmplKey: 226122691,
+  _njTmplKey: 2064437297,
   useString: false,
   main: function anonymous(p1,p2,p3,p4,p5
 /*``*/) {
@@ -6031,7 +6035,7 @@ return p1.H(_compParam0);
 }
 }),
   clearFix: nj.compileH({
-  _njTmplKey: -1805753,
+  _njTmplKey: 1111967379,
   useString: false,
   main: function anonymous(p1,p2,p3,p4,p5
 /*``*/) {
@@ -6660,7 +6664,7 @@ var Gesture = (_dec = Object(__WEBPACK_IMPORTED_MODULE_3_nornj_react__["register
 var nj = __webpack_require__(0);
 
 module.exports = nj.compileH({
-  _njTmplKey: -1600995081,
+  _njTmplKey: -1666284539,
   useString: false,
   fn2: function anonymous(p1,p2,p3,p4,p5
 /*``*/) {

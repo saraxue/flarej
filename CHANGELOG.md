@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## [v0.2.6] 2018.6.7
+
+* 🌟 `ECharts`组件增加`expandOption`、`theme`参数。
+* 🌟 支持使用`<Row.Left>`和`<Row.Right>`。
+
 ## [v0.2.4] 2018.5.4
 
 * 🐞 修复`TreeChart`组件变量名错误。

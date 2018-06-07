@@ -107,6 +107,8 @@ export class RowLeft extends Component {
   }
 }
 
+Row.Left = RowLeft;
+
 /**
  * Grid row right container
  */
@@ -118,6 +120,8 @@ export class RowRight extends Component {
     this.render = _createRowRender(this, 'fj-row-right');
   }
 }
+
+Row.Right = RowRight;
 
 /**
  * Grid col
