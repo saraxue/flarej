@@ -1,6 +1,6 @@
 ﻿import { registerComponent } from 'nornj';
-import Tabs from 'antd-mobile/lib/tabs/index.web';
-import 'antd-mobile/lib/tabs/style/index.web';
+import Tabs from 'antd-mobile/lib/tabs/index';
+import 'antd-mobile/lib/tabs/style/index';
 
 registerComponent({
   'antm-Tabs': Tabs,

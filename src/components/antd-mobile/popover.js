@@ -1,6 +1,6 @@
 ﻿import { registerComponent } from 'nornj';
-import Popover from 'antd-mobile/lib/popover/index.web';
-import 'antd-mobile/lib/popover/style/index.web';
+import Popover from 'antd-mobile/lib/popover/index';
+import 'antd-mobile/lib/popover/style/index';
 
 registerComponent({
   'antm-Popover': Popover,

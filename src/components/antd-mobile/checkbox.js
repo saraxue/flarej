@@ -1,6 +1,6 @@
 ﻿import { registerComponent } from 'nornj';
-import Checkbox from 'antd-mobile/lib/checkbox/index.web';
-import 'antd-mobile/lib/checkbox/style/index.web';
+import Checkbox from 'antd-mobile/lib/checkbox/index';
+import 'antd-mobile/lib/checkbox/style/index';
 
 registerComponent({
   'antm-Checkbox': Checkbox,
