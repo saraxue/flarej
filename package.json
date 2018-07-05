@@ -50,7 +50,7 @@
   },
   "devDependencies": {
     "antd": "^2.13.10",
-    "antd-mobile": "^1.4.1",
+    "antd-mobile": "^2.2.1",
     "autoprefixer": "^6.5.2",
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",

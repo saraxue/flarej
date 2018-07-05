@@ -1,6 +1,6 @@
 ﻿import { registerComponent } from 'nornj';
-import Modal from 'antd-mobile/lib/modal/index.web';
-import 'antd-mobile/lib/modal/style/index.web';
+import Modal from 'antd-mobile/lib/modal/index';
+import 'antd-mobile/lib/modal/style/index';
 
 registerComponent({
   'antm-Modal': Modal

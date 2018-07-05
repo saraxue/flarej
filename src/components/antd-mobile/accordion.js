@@ -1,6 +1,6 @@
 ﻿import { registerComponent } from 'nornj';
-import Accordion from 'antd-mobile/lib/accordion/index.web';
-import 'antd-mobile/lib/accordion/style/index.web';
+import Accordion from 'antd-mobile/lib/accordion/index';
+import 'antd-mobile/lib/accordion/style/index';
 
 registerComponent({
   'antm-Accordion': Accordion,

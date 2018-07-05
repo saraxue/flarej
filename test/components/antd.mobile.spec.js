@@ -8,6 +8,7 @@ import {ActionSheet} from '../../src/components/antd-mobile/actionSheet';
 import '../../src/components/antd-mobile/activityIndicator';
 import '../../src/components/antd-mobile/badge';
 import '../../src/components/antd-mobile/button';
+import '../../src/components/antd-mobile/calendar';
 import '../../src/components/antd-mobile/card';
 import '../../src/components/antd-mobile/carousel';
 import '../../src/components/antd-mobile/checkbox';
@@ -133,6 +134,13 @@ describe('antd mobile spec', function() {
       expect(defaultWrapper1.find('div').at(1)).toHaveClassName('am-list-item');
     });
     // defaultWrapper1.find('div').at(0).simulate('click');
+  });
+
+  describe('default', () => {
+    const defaultWrapper1 = mount(nj `<antm-Calendar />` ());
+    it('should be div tag with class name "am-list-item" by default', () => {
+      expect(defaultWrapper1.find('div').at(0)).toHaveClassName('am-calendar');
+    });
   });
 
   describe('default', () => {

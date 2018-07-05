@@ -1,6 +1,6 @@
 ﻿import { registerComponent } from 'nornj';
-import Radio from 'antd-mobile/lib/radio/index.web';
-import 'antd-mobile/lib/radio/style/index.web';
+import Radio from 'antd-mobile/lib/radio/index';
+import 'antd-mobile/lib/radio/style/index';
 
 registerComponent({
   'antm-Radio': Radio,

@@ -1,6 +1,6 @@
 ﻿import { registerComponent } from 'nornj';
-import Popup from 'antd-mobile/lib/popup/index.web';
-import 'antd-mobile/lib/popup/style/index.web';
+import Popup from 'antd-mobile/lib/popup/index';
+import 'antd-mobile/lib/popup/style/index';
 
 registerComponent({
   'antm-Popup': Popup

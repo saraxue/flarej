@@ -1,6 +1,6 @@
 ﻿import { registerComponent } from 'nornj';
-import Card from 'antd-mobile/lib/card/index.web';
-import 'antd-mobile/lib/card/style/index.web';
+import Card from 'antd-mobile/lib/card/index';
+import 'antd-mobile/lib/card/style/index';
 
 registerComponent({
   'antm-Card': Card,

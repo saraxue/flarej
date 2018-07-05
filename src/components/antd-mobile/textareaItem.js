@@ -1,6 +1,6 @@
 ﻿import { registerComponent } from 'nornj';
-import TextareaItem from 'antd-mobile/lib/textarea-item/index.web';
-import 'antd-mobile/lib/textarea-item/style/index.web';
+import TextareaItem from 'antd-mobile/lib/textarea-item/index';
+import 'antd-mobile/lib/textarea-item/style/index';
 
 registerComponent({
   'antm-TextareaItem': TextareaItem
