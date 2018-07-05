@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## [v0.2.7] 2018.7.5
+
+* 🐞 `ECharts`组件的容器背景色改为透明。
+* 🌟 `Ant Design Mobile`组件升级到`v2.x`。
+
 ## [v0.2.6] 2018.6.7
 
 * 🌟 `ECharts`组件增加`expandOption`、`theme`参数。
