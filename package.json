@@ -39,18 +39,18 @@
   "author": "Joe_Sky <hitomi_doax@sina.com>",
   "license": "MIT",
   "dependencies": {
+    "antd-mobile": "^2.2.1",
     "classnames": "^2.2.5",
     "core-decorators": "^0.15.0",
     "fecha": "^2.3.0",
     "nornj": "^0.4.2",
     "nornj-react": "^0.4.2",
+    "querystring": "^0.2.0",
     "react-addons-update": "^15.6.2",
-    "react-fontawesome": "^1.5.0",
-    "querystring": "^0.2.0"
+    "react-fontawesome": "^1.5.0"
   },
   "devDependencies": {
     "antd": "^2.13.10",
-    "antd-mobile": "^2.2.1",
     "autoprefixer": "^6.5.2",
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",
