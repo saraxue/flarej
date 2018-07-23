@@ -37,6 +37,7 @@ describe('ECharts spec', function () {
     expect(component.exists()).toBe(true);
     expect(component.getDOMNode().className).toEqual('fj-area-chart-area');
     expect(component.props().showLoading).toEqual(false);
+    expect(component.props().autoResize).toEqual(true);
   });
 
   it('override props', () => {

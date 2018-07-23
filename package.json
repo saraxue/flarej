@@ -1,6 +1,6 @@
 {
   "name": "flarej",
-  "version": "0.2.10",
+  "version": "0.2.11",
   "description": "An ui components library based on React and NornJ",
   "main": "lib/base.js",
   "files": [
@@ -47,7 +47,8 @@
     "nornj-react": "^0.4.2",
     "querystring": "^0.2.0",
     "react-addons-update": "^15.6.2",
-    "react-fontawesome": "^1.5.0"
+    "react-fontawesome": "^1.5.0",
+    "size-sensor": "^0.2.0"
   },
   "devDependencies": {
     "antd": "^2.13.10",

@@ -79,6 +79,7 @@ import { Row, Col, Pagination } from 'flarej';
 * [classnames](https://github.com/JedWatson/classnames)
 * [fecha](https://github.com/taylorhakes/fecha)
 * [querystring](https://github.com/Gozala/querystring)
+* [size-sensor](https://github.com/hustcc/size-sensor)
 
 ## 安装
 

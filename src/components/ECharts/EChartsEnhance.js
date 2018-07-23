@@ -2,6 +2,7 @@ import { Component } from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
 import merge from 'lodash/merge';
+import { bind, clear } from 'size-sensor';
 import {
   initOption,
   createChart,
@@ -27,12 +28,14 @@ const EChartsEnhance = (ComposedComponent) => {
       ]),
       showLoading: PropTypes.bool,
       loadingOption: PropTypes.object,
-      onChartReady: PropTypes.func
+      onChartReady: PropTypes.func,
+      autoResize: PropTypes.bool
     };
 
     static defaultProps = {
       update: true,
-      showLoading: false
+      showLoading: false,
+      autoResize: true
     };
 
     constructor(props) {
@@ -53,7 +56,14 @@ const EChartsEnhance = (ComposedComponent) => {
     componentDidMount() {
       this.createChart();
 
-      const { onChartReady } = this.props;
+      const { onChartReady, autoResize } = this.props;
+      const wrap = this.component.refs.chart.wrap;
+      if (autoResize && wrap) {
+        bind(wrap, () => {
+          this.chart.resize();
+        });
+      }
+
       onChartReady && onChartReady(this.chart);
     }
 
@@ -91,7 +101,19 @@ const EChartsEnhance = (ComposedComponent) => {
     }
 
     componentWillUnmount() {
-      this.chart && this.chart.dispose();
+      const wrap = this.component.refs.chart.wrap;
+      if (wrap) {
+        const { autoResize } = this.props;
+        if (autoResize) {
+          try {
+            clear(wrap);
+          } catch (ex) {
+            console.warn(ex);
+          }
+        }
+
+        this.chart && this.chart.dispose(wrap);
+      }
     }
 
     render() {
