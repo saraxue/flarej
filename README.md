@@ -17,6 +17,8 @@
 > [FlareJ的前身](https://github.com/joe-sky/flarej-jquery)是一个基于jQuery的UI组件库，在2011-2015年曾服务于`jd.com`内部多个PC及移动端系统中。
 
 [![NPM Version][npm-image]][npm-url]
+<a href="https://travis-ci.org/joe-sky/flarej"><img src="https://travis-ci.org/joe-sky/flarej.svg?branch=master" alt="Travis CI Status"/></a>
+<a href="https://codecov.io/gh/joe-sky/flarej"><img src="https://codecov.io/gh/joe-sky/flarej/branch/master/graph/badge.svg" alt="Codecov" /></a>
 [![NPM Downloads][downloads-image]][npm-url]
 
 ## 组件

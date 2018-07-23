@@ -8,6 +8,7 @@ import {
   updateChart
 } from '../../utils/ecConfig';
 import '../../styles/echarts';
+import '../grid';
 import template from './ECharts.t.html';
 
 const EChartsEnhance = (ComposedComponent) => {
@@ -23,11 +24,15 @@ const EChartsEnhance = (ComposedComponent) => {
       theme: PropTypes.oneOfType([
         PropTypes.string,
         PropTypes.object
-      ])
+      ]),
+      showLoading: PropTypes.bool,
+      loadingOption: PropTypes.object,
+      onChartReady: PropTypes.func
     };
 
     static defaultProps = {
-      update: true
+      update: true,
+      showLoading: false
     };
 
     constructor(props) {
@@ -47,6 +52,9 @@ const EChartsEnhance = (ComposedComponent) => {
 
     componentDidMount() {
       this.createChart();
+
+      const { onChartReady } = this.props;
+      onChartReady && onChartReady(this.chart);
     }
 
     componentDidUpdate() {
@@ -59,7 +67,9 @@ const EChartsEnhance = (ComposedComponent) => {
         data,
         option,
         title,
-        subTitle
+        subTitle,
+        showLoading,
+        loadingOption
       } = this.props;
 
       updateChart(this.chart, data, Object.assign({}, this.chartOption, merge({
@@ -71,6 +81,13 @@ const EChartsEnhance = (ComposedComponent) => {
           trigger: 'axis'
         }
       }, option)));
+
+      if (showLoading) {
+        this.chart.showLoading(loadingOption);
+      }
+      else {
+        this.chart.hideLoading();
+      }
     }
 
     componentWillUnmount() {

@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## [v0.2.9] 2018.7.23
+
+* 🌟 `ECharts`组件增加`showLoading`、`onChartReady`参数。
+
 ## [v0.2.8] 2018.7.10
 
 * 🌟 `Ant Design Mobile`组件补全。

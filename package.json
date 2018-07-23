@@ -1,6 +1,6 @@
 {
   "name": "flarej",
-  "version": "0.2.8",
+  "version": "0.2.9",
   "description": "An ui components library based on React and NornJ",
   "main": "lib/base.js",
   "files": [
@@ -21,7 +21,8 @@
     "lib-p": "gulp lib-p",
     "build": "npm run umd && npm run min && npm run lib && npm run lib-p",
     "lint": "eslint src",
-    "test": "karma start"
+    "test": "karma start",
+    "ci": "npm run test && codecov test/coverage/cobertura-coverage.xml"
   },
   "keywords": [
     "flarej",
@@ -39,7 +40,6 @@
   "author": "Joe_Sky <hitomi_doax@sina.com>",
   "license": "MIT",
   "dependencies": {
-    "antd-mobile": "^2.2.1",
     "classnames": "^2.2.5",
     "core-decorators": "^0.15.0",
     "fecha": "^2.3.0",
@@ -51,6 +51,7 @@
   },
   "devDependencies": {
     "antd": "^2.13.10",
+    "antd-mobile": "^2.2.2",
     "autoprefixer": "^6.5.2",
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",
