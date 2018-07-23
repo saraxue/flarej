@@ -1,6 +1,6 @@
 # CHANGELOG
 
-## [v0.2.11] 2018.7.23
+## [v0.2.12] 2018.7.23
 
 * 🌟 `ECharts`组件增加`showLoading`、`onChartReady`、`autoResize`参数。
 
