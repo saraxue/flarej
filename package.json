@@ -1,6 +1,6 @@
 {
   "name": "flarej",
-  "version": "0.2.9",
+  "version": "0.2.10",
   "description": "An ui components library based on React and NornJ",
   "main": "lib/base.js",
   "files": [
@@ -70,6 +70,7 @@
     "babel-preset-stage-1": "^6.5.0",
     "babel-register": "^6.11.5",
     "bootstrap": "^4.0.0-alpha.6",
+    "codecov": "^3.0.4",
     "css-loader": "^0.28.7",
     "echarts": "^3.3.2",
     "echarts-liquidfill": "^1.0.3",
