@@ -61,7 +61,51 @@ import { Row, Col, Pagination } from 'flarej';
 
 ### 高阶组件
 
-* [Responsive(响应式组件)](https://github.com/joe-sky/flarej/blob/master/src/higherOrders/responsive.js)
+* [Responsive(使组件状态支持响应式)](https://github.com/joe-sky/flarej/blob/master/src/higherOrders/responsive.js)
+
+使用`Responsive`高阶组件，可创建各属性值支持按响应式条件变化的组件。使用方法如下，可以用`fj`变量作为`Responsive`的别名：
+
+```js
+import fj from 'flarej/lib/higherOrders/responsive';
+//或 import fj from 'flarej';
+import EChart from 'flarej/lib/components/ECharts';
+
+//创建响应式组件
+const FjEChart = fj(EChart, {
+  responsive: false,          //是否开启响应式
+  responsiveDelay: 70,        //响应式执行后修改组件属性值延迟时间
+  responsiveOnlyWidth: true,  //只在页面宽度改变时执行响应式
+  defaultResponsiveParam: {   //默认响应式参数
+    '(max-width: 1350px)': {  //响应式条件，与css媒体查询语法一致
+      state: {                //组件各属性值
+        width: 200
+      }
+    },
+    '(min-width: 1351px)': {
+      state: {
+        width: 'auto'
+      }
+    }
+  }
+});
+
+ReactDOM.render(
+  <FjEChart autoResize={false}
+            responsive={true}
+            responsiveParam={{  //可在使用组件时继续传入其他响应式参数，会在defaultResponsiveParam后面执行
+              '(max-width: 1350px)': {
+                state: {
+                  width: 200
+                }
+              }
+            }}
+  />,
+document.body);
+```
+
+#### 使用Responsive高阶组件创建的组件
+
+* [Pagination(分页)](https://github.com/joe-sky/flarej/blob/master/examples/pagination.html)
 
 ### 第三方组件
 

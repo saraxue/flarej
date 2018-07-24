@@ -800,10 +800,15 @@ var win = window;
     function Responsive(props) {
       babelHelpers.classCallCheck(this, Responsive);
 
-      //Initialize
       var _this = babelHelpers.possibleConstructorReturn(this, _Component.call(this, props));
 
       _this.state = {};
+
+      if (props.compType == null) {
+        _this.compType = Object(__WEBPACK_IMPORTED_MODULE_4__utils_common__["a" /* guid */])();
+      }
+
+      //Initialize
       _this.bindResponsiveEvts();
       return _this;
     }
@@ -841,7 +846,7 @@ var win = window;
             //响应式处理
             _this2.responsiveHandle();
           }
-        }, props.responsiveDelay, 'ld_' + props.compType + '_responsive', _this2);
+        }, props.responsiveDelay, 'ld_' + (props.compType != null ? props.compType : _this2.compType) + '_responsive', _this2);
       };
 
       Object(__WEBPACK_IMPORTED_MODULE_7__utils_domEvent__["b" /* on */])('resize', fn, win);
@@ -925,7 +930,7 @@ var win = window;
 
       //移除响应式事件
       if (responsiveResize) {
-        Object(__WEBPACK_IMPORTED_MODULE_7__utils_domEvent__["a" /* off */])("resize", responsiveResize, win);
+        Object(__WEBPACK_IMPORTED_MODULE_7__utils_domEvent__["a" /* off */])('resize', responsiveResize, win);
       }
     };
 
