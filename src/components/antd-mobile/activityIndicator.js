@@ -1,6 +1,6 @@
 ﻿import { registerComponent } from 'nornj';
-import ActivityIndicator from 'antd-mobile/lib/activity-indicator/index.web';
-import 'antd-mobile/lib/activity-indicator/style/index.web';
+import ActivityIndicator from 'antd-mobile/lib/activity-indicator/index';
+import 'antd-mobile/lib/activity-indicator/style/index';
 
 registerComponent({
   'antm-ActivityIndicator': ActivityIndicator

@@ -233,6 +233,20 @@ gulp.task("lib", () => {
     .pipe(gulp.dest('./lib'));
 });
 
+gulp.task("lib-p", () => {
+  //Copy style files
+  gulp.src('./src/styles/**/*.less')
+    .pipe(gulp.dest('./lib-p/styles'));
+
+  //Convert js files
+  return gulp.src('./src/**/*.js')
+    .pipe(env.set({
+      BABEL_ENV: 'precompile'
+    }))
+    .pipe(babel())
+    .pipe(gulp.dest('./lib-p'));
+});
+
 //Default task
 let defaultTasks = ['build-js'];
 if (argv.w) {
@@ -240,4 +254,4 @@ if (argv.w) {
 } else {
   defaultTasks.push('build-all-css');
 }
-gulp.task('default', defaultTasks, () => gulp.start('lib'));
+gulp.task('default', defaultTasks);

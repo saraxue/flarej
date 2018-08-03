@@ -1,6 +1,6 @@
 ﻿import { registerComponent } from 'nornj';
-import WhiteSpace from 'antd-mobile/lib/white-space/index.web';
-import 'antd-mobile/lib/white-space/style/index.web';
+import WhiteSpace from 'antd-mobile/lib/white-space/index';
+import 'antd-mobile/lib/white-space/style/index';
 
 registerComponent({
   'antm-WhiteSpace': WhiteSpace

@@ -1,6 +1,6 @@
 ﻿import { registerComponent } from 'nornj';
-import NavBar from 'antd-mobile/lib/nav-bar/index.web';
-import 'antd-mobile/lib/nav-bar/style/index.web';
+import NavBar from 'antd-mobile/lib/nav-bar/index';
+import 'antd-mobile/lib/nav-bar/style/index';
 
 registerComponent({
   'antm-NavBar': NavBar

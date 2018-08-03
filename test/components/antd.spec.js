@@ -130,11 +130,11 @@ describe('Antd spec', function() {
 
   describe('default', () => {
     const defaultWrapper1 = shallow(nj `<ant-Form><ant-FormItem>
-          {getFieldDecorator('userName', {
+          <!--{getFieldDecorator('userName', {
             rules: [{ required: true, message: 'Please input your username!' }],
           })(
             <ant-Input placeholder="Username" />
-          )}
+          )}-->
         </ant-FormItem></ant-Form>` ());
 
     it('should be form tag by default', () => {

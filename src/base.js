@@ -6,12 +6,14 @@ import * as math from './utils/math';
 import * as date from './utils/date';
 import responsive from './higherOrders/responsive';
 import Pagination from './components/pagination';
+import Grid from './components/grid';
 import Gesture from './components/gesture';
 
 Object.assign(fj, {
   config,
   responsive,
   Pagination,
+  Grid,
   Gesture
 });
 
@@ -27,6 +29,7 @@ export * from './components/grid';
 export {
   responsive,
   Pagination,
+  Grid,
   Gesture,
   regexp,
   sort,
